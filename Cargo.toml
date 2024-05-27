@@ -1,0 +1,15 @@
+[package]
+name = "images-again"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+imageproc = "*"
+image = "*"
+rand = { version = "0.8.5", features = ["small_rng"] }
+rten = "0.10.0"
+rten-imageio = "0.10.0"
+itertools = "0.13.0"
+rten-tensor = "0.10.0"
+ab_glyph = "0.2.26"
+colored = "2.1.0"
